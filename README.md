@@ -64,6 +64,7 @@ print(simulazione_Black_Scholes(100, 0.05, 0.3, 10, 0.5))
     #       9.5    202.368581
     #       10.0   262.282989
 ```
+
 ## Risk neutral pricing
 Questo esempio presenta un test semplice per confermare che gli scenari siano generati in un modo risk neutral, avendo un output di simulazione ESG. Questo test si basa sul fatto che in un contesto risk neutral, esiste una relazione esplicita tra il prezzo di uno strumento finanziario a reddito fisso e i flussi di cassa scontati attesi.
 
@@ -89,5 +90,4 @@ for iter in range(1,nIter):
 
 print(np.mean(result))
 #   [out] = 99.8743118539787                
-
 ```
